@@ -1,0 +1,15 @@
+.tools { margin-bottom: 1rem; height: 2rem; line-height: 2rem; font-size: 10px }
+.tools h1 { float: left; font-size: 14px; margin: 0 1rem 0 0; padding: 0 }
+.tools input,
+.tools button { float: left; display: block; height: 2rem; line-height: 2rem; padding: 0; margin: 0 0.5rem 0 0 }
+.tools input { width: 4rem; border: none; background-color: #EEE; padding: 0 0.25rem }
+.tools button { cursor: pointer; border-radius: 0.25rem; border: none; padding: 0 1rem; background-color: #369; color: #FFF }
+.tools button:hover { background-color: #000 }
+.tools .color-input { float: left; display: block; margin-right: 0.5rem; width: 2rem; height: 2rem; overflow: hidden }
+.tools label { font-size: 12px; float: left; line-height: 2rem; height: 2rem; margin-right: 0.5rem }
+.tools .selected { box-shadow: 0 0 1rem #000 inset }
+
+.grid { list-style-type: none; padding: 0; margin: 0; line-height: 0; box-shadow: 0 0 1rem 0.25rem #000 }
+.grid div { box-sizing: border-box; display: inline-block; padding: 0; margin: 0; height: 1rem; width: 1rem; line-height: 1rem }
+.grid,
+.grid div { user-select: none }

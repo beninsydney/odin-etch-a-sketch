@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Etch-A-Sketch</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+       <div class="tools">
+         <h1>Etch-A-Sketch</h1>
+         <input class="width" value="16" type="number" min="1" max="100" />
+         <label>x</label>
+         <input class="height" value="16" type="number" min="1" max="100" />
+         <button class="resize-button">Resize</button>
+         <label>Color</label>
+         <div class="color-input">
+            <input class="color-picker" type="color" />
+         </div>
+         <button class="paint-button selected">Draw</button>
+         <button class="erase-button">Erase</button>
+         <button class="reset-button">Reset</button>
+       </div>
+       <div class="grid"></div>
+  </body>
+</html>
